@@ -1,0 +1,6 @@
+speaker_label,candidate_excluded_cluster,convex_hull_area,best_candidate_flag
+0011,0 (Angry),0.01737598414985473,
+0011,1 (Happy),0.028242434615192515,
+0011,4 (Neutral),0.028794415368942484,BEST
+0011,3 (Sad),0.023725669325394133,
+0011,2 (Surprise),0.027214642829261802,

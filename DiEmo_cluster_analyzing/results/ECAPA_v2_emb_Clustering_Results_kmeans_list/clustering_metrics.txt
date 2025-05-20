@@ -1,0 +1,13 @@
+Speaker 0016 - ARI: 0.851, NMI: 0.829, Purity: 0.937
+Speaker 0014 - ARI: 0.630, NMI: 0.677, Purity: 0.764
+Speaker 0018 - ARI: 0.895, NMI: 0.866, Purity: 0.957
+Speaker 0017 - ARI: 0.931, NMI: 0.908, Purity: 0.972
+Speaker 0015 - ARI: 0.772, NMI: 0.755, Purity: 0.899
+Speaker 0011 - ARI: 0.733, NMI: 0.753, Purity: 0.871
+Speaker 0012 - ARI: 0.808, NMI: 0.805, Purity: 0.914
+Speaker 0020 - ARI: 0.921, NMI: 0.894, Purity: 0.968
+
+=== Overall Averages ===
+Average ARI: 0.818
+Average NMI: 0.811
+Average Purity: 0.910

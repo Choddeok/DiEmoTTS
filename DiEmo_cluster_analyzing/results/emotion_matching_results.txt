@@ -1,0 +1,42 @@
+Emotion matching results between speaker 11 and speaker 12:
+  0 (Angry) (speaker 11)  ->  0 (Angry) (speaker 12)  [cost: 8.98]
+  1 (Happy) (speaker 11)  ->  4 (Happy) (speaker 12)  [cost: 20.58]
+  3 (Sad) (speaker 11)  ->  1 (Sad) (speaker 12)  [cost: 6.80]
+  2 (Surprise) (speaker 11)  ->  3 (Surprise) (speaker 12)  [cost: 0.38]
+
+Emotion matching results between speaker 12 and speaker 14:
+  0 (Angry) (speaker 12)  ->  1 (Angry) (speaker 14)  [cost: 6.02]
+  4 (Happy) (speaker 12)  ->  0 (Happy) (speaker 14)  [cost: 17.40]
+  1 (Sad) (speaker 12)  ->  3 (Sad) (speaker 14)  [cost: 6.41]
+  3 (Surprise) (speaker 12)  ->  2 (Surprise) (speaker 14)  [cost: 6.02]
+
+Emotion matching results between speaker 14 and speaker 15:
+  1 (Angry) (speaker 14)  ->  3 (Angry) (speaker 15)  [cost: 9.21]
+  0 (Happy) (speaker 14)  ->  1 (Happy) (speaker 15)  [cost: 17.39]
+  3 (Sad) (speaker 14)  ->  2 (Sad) (speaker 15)  [cost: 6.95]
+  2 (Surprise) (speaker 14)  ->  0 (Surprise) (speaker 15)  [cost: 6.18]
+
+Emotion matching results between speaker 15 and speaker 16:
+  3 (Angry) (speaker 15)  ->  4 (Angry) (speaker 16)  [cost: 8.59]
+  1 (Happy) (speaker 15)  ->  0 (Happy) (speaker 16)  [cost: 28.90]
+  2 (Sad) (speaker 15)  ->  2 (Sad) (speaker 16)  [cost: 8.70]
+  0 (Surprise) (speaker 15)  ->  3 (Surprise) (speaker 16)  [cost: 9.19]
+
+Emotion matching results between speaker 16 and speaker 17:
+  4 (Angry) (speaker 16)  ->  3 (Angry) (speaker 17)  [cost: 21.73]
+  0 (Happy) (speaker 16)  ->  1 (Happy) (speaker 17)  [cost: 22.12]
+  2 (Sad) (speaker 16)  ->  4 (Sad) (speaker 17)  [cost: 6.16]
+  3 (Surprise) (speaker 16)  ->  2 (Surprise) (speaker 17)  [cost: 9.22]
+
+Emotion matching results between speaker 17 and speaker 18:
+  3 (Angry) (speaker 17)  ->  3 (Angry) (speaker 18)  [cost: 18.03]
+  1 (Happy) (speaker 17)  ->  0 (Happy) (speaker 18)  [cost: 2.22]
+  4 (Sad) (speaker 17)  ->  2 (Sad) (speaker 18)  [cost: 13.26]
+  2 (Surprise) (speaker 17)  ->  4 (Surprise) (speaker 18)  [cost: 22.98]
+
+Emotion matching results between speaker 18 and speaker 20:
+  3 (Angry) (speaker 18)  ->  2 (Angry) (speaker 20)  [cost: 13.19]
+  0 (Happy) (speaker 18)  ->  4 (Happy) (speaker 20)  [cost: 113.36]
+  2 (Sad) (speaker 18)  ->  1 (Sad) (speaker 20)  [cost: 13.48]
+  4 (Surprise) (speaker 18)  ->  0 (Surprise) (speaker 20)  [cost: 8.10]
+
