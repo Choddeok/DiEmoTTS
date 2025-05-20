@@ -75,10 +75,6 @@ sh preprocessing.sh
 sh DiEmoTTS.sh
 ```
 
-------
-### 3. Pretrained checkpoints
-- TTS module trained on 160k [[Download]]()
-
 ## Acknowledgements
 **Our codes are based on the following repos:**
 * [NATSpeech](https://github.com/NATSpeech/NATSpeech)
