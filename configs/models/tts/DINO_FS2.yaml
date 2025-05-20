@@ -1,0 +1,68 @@
+base_config: ./base.yaml
+task_cls: ""
+dataset_cls: ""
+model_cls: ""
+# task_cls: tasks.tts.fastspeech2.FastSpeech2Task
+# dataset_cls: tasks.tts.dataset_utils.Expressive_FS2_Dataset
+# model_cls: models.tts.fastspeech2.FastSpeech2
+
+# model
+hidden_size: 256
+
+# fft enc/dec
+encoder_layers: 4
+encoder_ffn_kernel_size: 9
+decoder_layers: 4
+decoder_ffn_kernel_size: 9
+num_heads: 2
+ffn_act: relu
+ffn_hidden_size: 1024
+
+# duration
+dur_predictor_kernel: 3
+dur_predictor_layers: 2
+predictor_kernel: 5
+predictor_layers: 5
+predictor_dropout: 0.5
+
+# mel
+mel_losses: l1 # l1|l2|gdl|ssim or l1:0.5|ssim:0.5
+
+# loss lambda
+lambda_dur: 1.0
+
+use_energy_embed: true
+use_pitch_embed: true
+pitch_type: cwt # frame|ph|cwt
+binarization_args:
+  with_f0cwt: true
+
+cwt_std_scale: 0.8
+dropout: 0.1
+lambda_f0: 1.0
+lambda_uv: 1.0
+lambda_energy: 1.0
+
+# train and eval
+warmup_updates: 4000
+max_updates: 160000
+max_sentences: 48
+
+spk_name: ""
+use_bn_in_head: False
+norm_last_layer: False
+warmup_teacher_temp: 0.04
+teacher_temp: 0.04
+# warmup_teacher_temp_epochs: 30
+warmup_teacher_temp_epochs: 0
+# (Default: 30)
+
+# VQ
+vq_n_emb: 32
+
+adam_b1: 0.8
+adam_b2: 0.9
+
+num_warmup_steps: 0 # Optimizers warmup steps
+dino_start_step: 0
+dino_load_ckpt: ""
