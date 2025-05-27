@@ -1,6 +1,6 @@
 # DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech <br><sub>The official implementation of DiEmo-TTS (INTERSPEECH 2025)</sub>
 
-## [Paper 📄]()|[Demo 🎧](https://choddeok.github.io/DiEmo-TTS-Demo/)
+## [Paper 📄](https://arxiv.org/abs/2505.19687)|[Demo 🎧](https://choddeok.github.io/DiEmo-TTS-Demo/)
 
 **Deok-Hyeon Cho, Hyung-Seok Oh, Seung-Bin Kim, Seong-Whan Lee**
 
